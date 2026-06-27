@@ -1,0 +1,16 @@
+import java.awt.*;
+class MyFrame extends Frame {
+MyFrame(){
+Button b = new Button("click me");
+setLayout(new FlowLayout());
+add(b);
+setSize(500, 200);
+setVisible(true);
+}
+
+public static void main(String [] args){
+new MyFrame();
+}
+}
+
+
